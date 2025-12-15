@@ -7,8 +7,8 @@ test('has title', async ({ page }) => {
   await expect(page).toHaveTitle(/Admin Portal/);
 });
 
-// test('get started link', async ({ page }) => {
-//   await page.goto('https://playwright.dev/');
+test('get started link', async ({ page }) => {
+  await page.goto('https://playwright.dev/');
 
 //   // Click the get started link.
 //   await page.getByRole('link', { name: 'Get started' }).click();
