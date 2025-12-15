@@ -4,7 +4,7 @@ test('has title', async ({ page }) => {
   await page.goto('https://admin.qat.anddone.com/#/login');
 
   // Expect a title "to contain" a substring.
-  await expect(page).toHaveTitle(/Admin/);
+  await expect(page).toHaveTitle(/Admin Portal/);
 });
 
 // test('get started link', async ({ page }) => {
